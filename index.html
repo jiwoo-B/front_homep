@@ -20,7 +20,7 @@
                     <li><a href="#top">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#gogo">Trace</a></li>
+                    <li><a href="#Trace">Trace</a></li>
                 </ul>
             </nav>
         </div>
@@ -66,7 +66,7 @@
                     <button class="btn-hobby" type="button"
                         onclick="window.open('https://www.youtube.com/results?search_query=%ED%95%B4%EC%99%B8%EC%B6%95%EA%B5%AC+%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8', '_blank')">Hobby</button>
                     <button class="btn-playlist" type="button"
-                        onclick="window.open('https://youtu.be/f0E2F2GvUtw?si=iSRHb3yyrvYlFvg9', '_blank')">PlayList</button>
+                        onclick="window.open('https://youtube.com/playlist?list=PLduxbHYOzgUUXy_oNRsX7ZisMxRJMaM67&si=xGhisNYft7Qgaobf', '_blank')">PlayList</button>
                     </button>
                 </div>
             </div>
@@ -92,12 +92,12 @@
             <div class="project-card" onclick="window.open('https://tsbywoo.tistory.com/', '_blank')">
                 <img src="img/티스토리.png" alt="Project Image">
                 <h3>TISTORY</h3>
-                <p>Project Record <br> in tistory</p>
+                <p>Project Record <br> in Tistory</p>
             </div>
             <div class="project-card" onclick="window.open('https://www.miricanvas.com/v/12wuu0q', '_blank')">
                 <img src="img/길라.png" alt="Project Image">
                 <h3>길라잡이</h3>
-                <p>재난/재해 발생시 길잡이가 되어줄 <br> 앱 기획 프로젝트 </p>
+                <p>재난/재해 발생시<br> 길잡이 앱 기획 프로젝트 </p>
             </div>
             <div class="project-card" onclick="window.open('https://www.miricanvas.com/v/123jykc', '_blank')">
                 <img src="img/따릉이.png" alt="Project Image">
@@ -113,10 +113,22 @@
         <div class="container">
             <h1>TRACE</h1>
             <input type="text" id="nickname" class="todo-input" placeholder="NickName">
-            <input type="text" id="comment" class="todo-input" placeholder="Leave a comment!">
+            <input type="text" id="comment" class="todo-input" placeholder="Leave a comment! (삭제가능)">
             <button id="submit-btn">Submit</button>
             <div class="todos-container">
-                <!-- 댓글 항목이 동적으로 추가될 부분 -->
+
+                <div class="todo-item">
+                    예시1
+                    <button class="delete-btn">x</button>
+                </div>
+                <div class="todo-item">
+                    예시2
+                    <button class="delete-btn">x</button>
+                </div>
+                <div class="todo-item">
+                    예시3
+                    <button class="delete-btn">x</button>
+                </div>
             </div>
         </div>
     </section>

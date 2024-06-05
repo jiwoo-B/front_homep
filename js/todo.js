@@ -9,7 +9,19 @@ function getTodos() {
         })
         .catch(error => {
             console.error('Error fetching todos:', error);
+            // 임의의 값을 표시
+            renderMockTodos();
         });
+}
+
+function renderMockTodos() {
+    todosContainer.innerHTML = ''; // todosContainer 초기화
+    const mockTodos = [
+        { nickname: 'Example Nickname 1', item: 'Example Comment 1', timestamp: new Date() },
+        { nickname: 'Example Nickname 2', item: 'Example Comment 2', timestamp: new Date() },
+        { nickname: 'Example Nickname 3', item: 'Example Comment 3', timestamp: new Date() },
+    ];
+    renderTodos(mockTodos);
 }
 
 function renderTodos(todos) {
