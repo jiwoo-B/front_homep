@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="js/todo.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="img/가로자연.jpg" alt="cat">
+        <div class="top-bar">
+            <h1></h1>
+            <nav>
+                <ul id="gnb">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#gogo">Trace</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="overlay">
+            <br> <br>
+            <h1>WELCOME</h1>
+            <h4>Here is my home.</h4>
+            <article>Take a look around comfortably. <br> And make fun discoveries. <br><br><br><br> HAVE A GOOD TIME!
+            </article>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Introduce myself</p>
+
+        <div class="about-content">
+            <div class="profile">
+                <img src="img/5.jpg" alt="Profile Picture">
+            </div>
+
+            <div class="info_me">
+                <div>
+                    <dt>NAME</dt>
+                    <dd> 백지우</dd>
+                </div>
+                <div>
+                    <dt>BIRTH</dt>
+                    <dd> 2002.11.11.</dd>
+                </div>
+                <div>
+                    <dt>RESIDENCE</dt>
+                    <dd> 서울 강동구</dd>
+                </div>
+                <div>
+                    <dt>University/Major</dt>
+                    <dd>광운대학교 경영학부 (정보융합학부)</dd>
+                </div>
+
+                <div class="btn-about">
+                    <button class="btn-mbti" type="button"
+                        onclick="window.open('https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-isfp', '_blank')">MBTI</button>
+                    <button class="btn-hobby" type="button"
+                        onclick="window.open('https://www.youtube.com/results?search_query=%ED%95%B4%EC%99%B8%EC%B6%95%EA%B5%AC+%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8', '_blank')">Hobby</button>
+                    <button class="btn-playlist" type="button"
+                        onclick="window.open('https://youtu.be/f0E2F2GvUtw?si=iSRHb3yyrvYlFvg9', '_blank')">PlayList</button>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="album-container">
+            <div id="album" onclick="window.open('https://youtu.be/pOxaUol-M3A?si=fGtGuz7Kyg366xGw', '_blank')"></div>
+            <div id="current-song">
+                Album <br> Of My Life
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Show my projects</p>
+        <div class="projects-container">
+            <div class="project-card" onclick="window.open('https://github.com/jiwoo-B', '_blank')">
+                <img src="img/깃허브.png" alt="Project Image">
+                <h3>GitHub</h3>
+                <p>Project ZIP <br> in GitHub</p>
+            </div>
+            <div class="project-card" onclick="window.open('https://tsbywoo.tistory.com/', '_blank')">
+                <img src="img/티스토리.png" alt="Project Image">
+                <h3>TISTORY</h3>
+                <p>Project Record <br> in tistory</p>
+            </div>
+            <div class="project-card" onclick="window.open('https://www.miricanvas.com/v/12wuu0q', '_blank')">
+                <img src="img/길라.png" alt="Project Image">
+                <h3>길라잡이</h3>
+                <p>재난/재해 발생시 길잡이가 되어줄 <br> 앱 기획 프로젝트 </p>
+            </div>
+            <div class="project-card" onclick="window.open('https://www.miricanvas.com/v/123jykc', '_blank')">
+                <img src="img/따릉이.png" alt="Project Image">
+                <h3>따릉이 분석</h3>
+                <p>서울시 따릉이 공공데이터 <br>
+                    분석 프로젝트</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Trace">
+        <div class="container">
+            <h1>TRACE</h1>
+            <input type="text" id="nickname" class="todo-input" placeholder="NickName">
+            <input type="text" id="comment" class="todo-input" placeholder="Leave a comment!">
+            <button id="submit-btn">Submit</button>
+            <div class="todos-container">
+                <!-- 댓글 항목이 동적으로 추가될 부분 -->
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
