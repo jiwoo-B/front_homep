@@ -171,9 +171,7 @@ section #about {
 
 .btn-mbti,
 .btn-hobby,
-.btn-playlist,
-.btn-instagram,
-.btn-blog {
+.btn-playlist {
   width: 80px;
   margin: 5px;
   padding: 5px;
@@ -188,11 +186,34 @@ section #about {
 
 .btn-mbti:hover,
 .btn-hobby:hover,
-.btn-playlist:hover,
-.btn-instagram:hover,
-.btn-blog:hover {
+.btn-playlist:hover {
   background-color: #81ae6e;
   color: #fff;
+}
+
+/* 소셜 미디어 아이콘 스타일 */
+.social-media {
+  margin-top: 10px;
+  margin-left: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-media a {
+  display: inline-block;
+}
+
+.social-media img {
+  border: solid 3px #87b88a6a;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+  transform: scale(1.1);
 }
 
 /* 앨범이 회전하는 애니메이션 */
@@ -319,8 +340,8 @@ section #projects {
 /*trace*/
 
 #Trace {
-  margin: 10px;
-  padding: 10px;
+  margin-top: 5px;
+  padding-bottom: 10px;
   box-sizing: border-box;
   background-color: #777777;
 }
@@ -431,4 +452,29 @@ section #projects {
 
 .delete-btn:hover {
   background-color: #000000;
+}
+
+/* 상단 이동 버튼 스타일 */
+#topBtn {
+  display: none; /* 기본적으로 숨김 */
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#topBtn:hover {
+  background-color: #555;
+}
+
+footer {
+  text-align: center;
 }

@@ -162,4 +162,25 @@ document.addEventListener('DOMContentLoaded', function () {
     checkPosition(); // Initial check
 });
 
+// 상단 이동 버튼 기능
+let mybutton = document.getElementById("topBtn");
+
+// 스크롤할 때 버튼 표시
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// 상단으로 이동
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
