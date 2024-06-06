@@ -213,7 +213,7 @@ section #about {
   padding-top: 20px; /* 필요시 패딩 조정 */
   background: #4267702b; /* CD 플레이어 배경색 */
   width: 250px;
-  height: 320px;
+  height: 340px;
   border-radius: 20px;
   box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.642);
   position: relative;
@@ -221,8 +221,9 @@ section #about {
 }
 
 #album {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
+  border: solid 3px #ffffff;
   border-radius: 50%;
   background-image: url("https://i.namu.wiki/i/N0P5TbMbpc2spx_zCQlDip9WM-7ZoO1_lo2IT5qp2-Hmr0gHmrokOLwy2K1OdG4Xtc6wQEYv6vaavMMMGXaPxA.webp"); /* 앨범 이미지 경로 */
   background-size: contain;
@@ -238,7 +239,7 @@ section #about {
   left: 50%;
   width: 40px;
   height: 40px;
-  background: #000000;
+  background: #ffffff;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
