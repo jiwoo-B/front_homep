@@ -11,7 +11,7 @@
 이 포트폴리오는 아래의 소스를 참고하여 제작되었습니다:
 
 - [HyeRrin의 포트폴리오](https://github.com/HyeRrin/portfolio.git)
-- <button class="btn-mbti" type="button" onclick="window.open('https://inpa.tistory.com/entry/CSS-%F0%9F%92%8D-%EA%B7%B8%EB%A6%BC%EC%9E%90box-shadow-%EB%94%94%EC%9E%90%EC%9D%B8-%F0%9F%96%8C%EF%B8%8F-%EB%AA%A8%EC%9D%8C', '_blank')">SBox-Shadow Design</button>
+- <a href="https://inpa.tistory.com/entry/CSS-%F0%9F%92%8D-%EA%B7%B8%EB%A6%BC%EC%9E%90box-shadow-%EB%94%94%EC%9E%90%EC%9D%B8-%F0%9F%96%8C%EF%B8%8F-%EB%AA%A8%EC%9D%8C" target="_blank">Box-Shadow Design</a>
 
 ----
 
