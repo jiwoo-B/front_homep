@@ -27,13 +27,12 @@
 #### 프로젝트 1: **back_homep**
 - **설명**: fastapi를 통한 back-end 구축
 - **기술**: Python
-- **링크**: https://github.com/jiwoo-B/back_homep.git
+- **링크**:<a href="https://github.com/jiwoo-B/back_homep.git" target="_blank"> back_homep-github</a>
 
 #### 프로젝트 2: **front_homep**
 - **설명**: 홈페이지 front-end 구축
 - **기술**: HTML, CSS, JavaScript
-- **링크**: https://github.com/jiwoo-B/front_homep.git
-
+- **링크**: <a href="https://github.com/jiwoo-B/front_homep.git" target="_blank"> front_homep-github</a>
 
 ----
 
